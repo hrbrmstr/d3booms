@@ -145,8 +145,7 @@ var process_nuclear = function(events) {
   var max_y = d3.max(d3.nest()
                         .key(function(d) { return(d.country); })
                         .rollup(function(l) { return(l.length); })
-                        .entries(mod), 
-                        function(d){ return(d.values); })
+                        .entries(mod), function(d){ return(d.values); })
 
   // x & y domains
   bars_x.domain(countries);
