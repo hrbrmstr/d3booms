@@ -1,0 +1,99 @@
+/*
+  Lovingly handcrafted by @hrbrmstr
+  Copyright (c) 2016, Bob Rudis
+  MIT License
+*/ 
+
+html, body, h1, h2, p {
+  background: #2b2b2b;
+  font-family: 'Oswald', sans-serif;
+  color: #bfbfbf;  
+}
+
+h1 {
+  font-size:16pt;
+  font-weight:400;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+h2 {
+  font-size:12pt;
+  margin-top:0px;
+  padding-top:0px;
+  font-weight:300;
+}
+.country {
+  stroke: #bfbfbf;
+  fill: none;
+  stroke-width: .25px;
+}
+
+.explosions {
+  stroke-width: 0.4px;
+  fill-opacity: 0.0;
+}
+
+#container {
+  width:960px;
+  margin:auto;
+}
+
+#map {
+  width:960px;
+  height:480px;
+  margin:auto;
+}
+
+#year {
+  width:100pt;
+  text-align: center;
+  color: #bfbfbf;
+  margin:auto;
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+#barchart {
+  width:960px;
+  height:150px;
+  margin:auto;
+}
+
+#caption {
+  text-align:right;
+  font-weight:300;
+  font-size:9pt;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.axis text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size:8pt;
+  color: #bfbfbf;
+  fill: #bfbfbf;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #bfbfbf;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.opaque {
+  opacity: 0
+}

@@ -1,0 +1,79 @@
+<!--
+  Lovingly handcrafted by @hrbrmstr
+  Copyright (c) 2016, Bob Rudis
+  MIT License
+ -->
+ 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title>Nuclear Explosions, 1945-1998</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self' 'unsafe-eval'; 
+               connect-src 'self'; 
+               style-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; 
+               font-src https://fonts.googleapis.com https://fonts.gstatic.com"/>
+               
+<meta property="og:title" content="Nuclear Explosions, 1945-1998" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://rud.is/projects/nucleard3/index.html" />
+<meta property="og:image" content="http://rud.is/projects/nucleard3/ogimg.png" />
+<meta property="og:site_name" content="rud.is" />
+<meta property="fb:admins" content="hrbrmstr" />
+<meta property="og:description" content="R, D3, data science, cooking" />
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' 
+      rel='stylesheet' 
+      type='text/css' 
+      charset="utf-8"/>
+      
+<link href='vis.css' 
+      rel='stylesheet' 
+      type='text/css' 
+      charset="utf-8"/>
+      
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#001014">
+<meta name="apple-mobile-web-app-title" content="Nuclear Explosions">
+<meta name="application-name" content="Nuclear Explosions">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+  
+<div id="container">
+<h1>Nuclear Explosions, 1945–1998</h1>
+<h2>Stockholm International Peace Research Institute (SIPRI) and Sweden's Defence Research Establishment</h2>
+<div id="map"></div>
+<div id="year"><span class='opaque'>2000</span></div>
+<div id="barchart"></div>
+<div id="caption">Data from <a href="https://github.com/data-is-plural/nuclear-explosions">https://github.com/data-is-plural/nuclear-explosions</a></div>
+</div>
+  
+<script src="d3.v3.min.js" charset="utf-8"></script>
+<script src="topojson.v1.min.js" charset="utf-8"></script>
+<script src="d3.geo.projection.v0.min.js" charset="utf-8"></script>
+<script src="colorbrewer.min.js" charset="utf-8"></script>
+<script src="vis.js" charset="utf-8"></script>
+</body>
+</html>
