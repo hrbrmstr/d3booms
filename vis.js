@@ -233,4 +233,4 @@ var process_nuclear = function(events) {
 d3.csv("sipri-report-explosions.csv", process_nuclear);
 
 // in case we're <iframe>'d
-d3.select(self.frameElement).style("height", height + "px");
+d3.select(self.frameElement).style("height", "710px");
